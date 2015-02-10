@@ -4,7 +4,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 
-@SuiteClasses({SendingMailTest.class, SearchMailTest.class}) //указываем порядок запуска классов с тестами
+@SuiteClasses({SendingMailTest.class, SearchMailTest.class}) 
 
 public class TestSuite {
 	
